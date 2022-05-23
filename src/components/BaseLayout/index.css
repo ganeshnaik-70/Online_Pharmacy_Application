@@ -1,0 +1,26 @@
+.content {
+  background-color: #F9F6F6;
+}
+
+.first-header {
+  background: url('https://i.ibb.co/WkK9cb2/background3.jpg');
+}
+
+.second-header {
+  background: url('https://i.ibb.co/rmz1vw8/background4.jpg');
+}
+
+.third-header {
+  background: url('https://i.ibb.co/zFmys3v/background1.jpg');
+}
+
+.fourth-header {
+  background: url('https://i.ibb.co/MSGYYHv/background2.jpg');
+}
+
+.first-header, .second-header, .third-header, .fourth-header {
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+}
